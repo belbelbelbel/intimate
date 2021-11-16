@@ -1,0 +1,96 @@
+.html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+ font-family: "https://fonts.googleapis.com/css2?family=Petemoss&family=Roboto:ital,wght@1,300&family=Zen+Old+Mincho&display=swap" rel="stylesheet";
+}
+
+header {
+    height: 100px;
+background-color: none;
+display: flex;
+justify-content: space-around;
+text-align: center;
+font-weight: 80px;
+}
+ul {
+    display: flex;
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+ul li a {
+padding: 0 20px;
+text-decoration: none;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 0;
+    background-color: blueviolet;
+    transition: all .5s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    border: 1px solid blue;
+    height:calc(100vh - 100px);
+    align-content: center;
+    justify-content: center;
+}
+
+.city-img {
+    max-width: 760px;
+    height: auto;
+}
+
+h1 {
+    font-size: 44px;
+    color: black;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 10px;
+}
+
+.pass {
+font-size: 14px;
+color: black;
+line-height: 30px;
+margin: 30px 0;
+font-weight: 400px;
+}
+
+.bts {
+    text-transform: uppercase;
+    font-weight: 700px;
+    background-color: skyblue;
+    border-radius: 50px;
+    padding: 20px 35px;
+}
+
+.bts:hover {
+    background-color: purple; 
+}
+
+.classic {
+    border-radius: 10px;
+    background-color: skyblue;
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
